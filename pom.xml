@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qedgetech.com</groupId>
+  <artifactId>Madhu</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <packaging>jar</packaging>
+<Name>Madhu</Name>
+<url>http://maven.apache</url>
+<properties>
+	<project.build.sourceEnocoding>UTF-8</project.build.sourceEnocoding>
+</properties>
+<build>
+	<plugins>
+		<plugin>
+			<groupsId>org.apache.mavan.plugins</groupsId>
+			<artifactId>mavan.complier.plugin</artifactId>
+			<configuration>
+				<source>1.6</source>
+				<target>1.6</target>
+			</configuration>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			
+			<artifactId>maven-surefire-plugin.</artifactId>
+			<version>2.18.1</version>
+			<configuration>
+				<suiteXmlFiles>
+					<suiteXmlFile>testng.xml</suiteXmlFile>		
+				</suiteXmlFiles>		
+		</plugin>
+	</plugins>	
+</build>>
+<dependencies>
+	<dependancy>
+		<groupsId>junit</groupsId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+				<scope>test</scope>
+	</dependancy>	
+</dependencies>
+</project>
+</project>
